@@ -9,7 +9,7 @@ import java.util.List;
  *
 * 
 *
-* @author Bruno
+* @author João Rosa
 * @version 1.0
 * @since 2022-03-20
 * 

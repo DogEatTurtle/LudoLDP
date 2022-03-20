@@ -10,6 +10,13 @@ public class Venda {
     List<Artigos> artigos;
     
     
+    /**
+     *@author João Rosa
+     * @version 1.0
+     * @since 2022-03-20
+     */
+    
+    
     /**seter da variável valor
      *@param valor
     */
@@ -22,12 +29,12 @@ public class Venda {
         
         
     /** seter da variável dataVenda
-        * @param dt 
+        * @param data 
      */
         
         
-        public void setData(Date dt){
-        this.dataVenda = dt;
+        public void setData(Date data){
+        this.dataVenda = data;
         }
         
         

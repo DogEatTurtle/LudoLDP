@@ -3,20 +3,38 @@ package Exercicio6;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * 
+ *   <h1>Classe Venda </h1>
+ *
+* 
+*
+* @author João Rosa
+* @version 1.0
+* @since 2022-03-20
+* 
+* 
+*/
+
 public class Venda {
     int numVenda;
     Date dataVenda;
     float valor;
     List<Artigos> artigos;
+    List<Servicos> servicos;
     
     
-    /**
-     *@author João Rosa
-     * @version 1.0
-     * @since 2022-03-20
-     */
-    
-    
+     /** geter da variável valor
+      * 
+      * @return 
+      */   
+        
+        
+        public float getValor(){
+        return valor;
+        }
+        
+        
     /**seter da variável valor
      *@param valor
     */
@@ -38,16 +56,6 @@ public class Venda {
         }
         
         
-        
-     /** geter da variável valor
-      * 
-      * @return 
-      */   
-        
-        
-        public float getValor(){
-        return valor;
-        }
         
      /** geter da variável dataVenda
       * 
